@@ -10,7 +10,6 @@ const getCoordinates = async (city) => {
   );
   const data = await response.json();
   console.log(data);
-  a;
   return data.results ? data.results[0] : null;
 };
 
